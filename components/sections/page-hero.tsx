@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -17,19 +17,7 @@ export function PageHero({
   crumbs?: Crumb[];
 }) {
   return (
-    <section className="relative isolate overflow-hidden pt-16 lg:pt-20">
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src={image}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/92 via-brand-green/80 to-brand-blue-dark/72" />
-        <div className="absolute inset-0 bg-grid opacity-20 mix-blend-overlay" />
-      </div>
+    <section className="relative isolate overflow-hidden bg-gradient-to-br from-brand-green-dark via-brand-green to-brand-blue-dark  pt-16 lg:pt-20">
 
       <div className="mx-auto max-w-7xl px-5 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
         <nav

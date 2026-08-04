@@ -92,7 +92,7 @@ export const PROGRAMS: Program[] = [
     description:
       'We run learning centers in underserved villages, providing free tuition, books, and digital literacy to children who would otherwise be left behind.',
     image:
-      'https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      '/images/shiksa.jpeg',
     icon: Sparkles,
     highlights: [
       '38 active learning centers',
@@ -160,7 +160,7 @@ export const PROGRAMS: Program[] = [
     description:
       'Community kitchens and ration distribution ensure nutritious meals reach elderly, homeless, and low-income families during crises and everyday life.',
     image:
-      'https://images.pexels.com/photos/6646878/pexels-photo-6646878.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oY5lsDa5z2ZtZN70llUXPP-S3YEGR78Vk2dCzdUKqg&s=10',
     icon: HandHeart,
     highlights: [
       'Daily community kitchen',
@@ -290,17 +290,17 @@ export type GalleryItem = {
 
 export const GALLERY: GalleryItem[] = [
   {
-    src: 'https://images.pexels.com/photos/6646778/pexels-photo-6646778.jpeg?auto=compress&cs=tinysrgb&w=900',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo3JfFwN2B7-mQOOz3xZ17_k1GgPqF1kI9aO3xNjdMMQ&s=10',
     alt: 'Volunteers sorting aid boxes',
     category: 'Volunteering',
   },
   {
-    src: 'https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg?auto=compress&cs=tinysrgb&w=900',
+    src: 'http://localhost:3001/images/shiksa.jpeg',
     alt: 'Children learning in a classroom',
     category: 'Education',
   },
   {
-    src: 'https://images.pexels.com/photos/6646878/pexels-photo-6646878.jpeg?auto=compress&cs=tinysrgb&w=900',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oY5lsDa5z2ZtZN70llUXPP-S3YEGR78Vk2dCzdUKqg&s=10',
     alt: 'Food distribution drive',
     category: 'Food Security',
   },
@@ -325,7 +325,7 @@ export const GALLERY: GalleryItem[] = [
     category: 'Food Security',
   },
   {
-    src: 'https://images.pexels.com/photos/18506736/pexels-photo-18506736.jpeg?auto=compress&cs=tinysrgb&w=900',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf2R9XUANNEsugCjgXSAWDY50NEu44PtvgROrNX7RRig&s=10',
     alt: 'Teacher with attentive students',
     category: 'Education',
   },
@@ -470,7 +470,7 @@ export const TEAM: { name: string; role: string; image: string }[] = [
     name: 'Vikram Meena',
     role: 'Head of Volunteering',
     image:
-      'https://images.pexels.com/photos/6646778/pexels-photo-6646778.jpeg?auto=compress&cs=tinysrgb&w=600',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwM2z7vqc8gOkMeefphzGghg5DrmwIUt8PZdXxBM_CVw&s=10',
   },
   {
     name: 'Nisha Gupta',
@@ -481,8 +481,8 @@ export const TEAM: { name: string; role: string; image: string }[] = [
 ];
 
 export const HERO_IMAGE =
-  'https://images.pexels.com/photos/6646778/pexels-photo-6646778.jpeg?auto=compress&cs=tinysrgb&w=1600';
+  '/images/hero/hero-image.png';
 export const ABOUT_PREVIEW_IMAGE =
-  'https://images.pexels.com/photos/6646880/pexels-photo-6646880.jpeg?auto=compress&cs=tinysrgb&w=1000';
+  '/images/about-image.png';
 export const ABOUT_HERO_IMAGE =
   'https://images.pexels.com/photos/6647119/pexels-photo-6647119.jpeg?auto=compress&cs=tinysrgb&w=1200';

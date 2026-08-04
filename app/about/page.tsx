@@ -55,7 +55,7 @@ export default function AboutPage() {
           <div className="reveal relative">
             <div className="overflow-hidden rounded-3xl shadow-soft-lg">
               <Image
-                src="https://images.pexels.com/photos/6647119/pexels-photo-6647119.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                src="https://images.pexels.com/photos/7156158/pexels-photo-7156158.jpeg?auto=compress&cs=tinysrgb&w=900"
                 alt="Volunteers organizing donation boxes"
                 width={1000}
                 height={760}
