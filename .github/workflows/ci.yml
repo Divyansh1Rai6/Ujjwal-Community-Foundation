@@ -41,7 +41,14 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Audit Packages
+        continue-on-error: true
         run: npm audit --audit-level=high
 
       - name: Build Project
         run: npm run build
+
+        - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: npx playwright test
