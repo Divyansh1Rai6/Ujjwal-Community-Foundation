@@ -74,42 +74,46 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Get involved */}
+          {/* Impact & Transparency (Naye Links Here) */}
           <div>
             <h3 className="font-display text-sm font-bold uppercase tracking-wider text-background">
-              Get Involved
+              Impact & Trust
             </h3>
             <ul className="mt-4 space-y-2.5">
               <li>
                 <Link
+                  href="/impact-stories"
+                  className="group inline-flex items-center gap-1.5 text-sm text-background/70 transition-colors hover:text-background"
+                >
+                  <ArrowRight className="h-3 w-3 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
+                  Impact Stories
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/transparency"
+                  className="group inline-flex items-center gap-1.5 text-sm text-background/70 transition-colors hover:text-background"
+                >
+                  <ArrowRight className="h-3 w-3 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
+                  Financial Transparency
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/newsletters"
+                  className="group inline-flex items-center gap-1.5 text-sm text-background/70 transition-colors hover:text-background"
+                >
+                  <ArrowRight className="h-3 w-3 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
+                  Newsletters & Updates
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/volunteer"
-                  className="text-sm text-background/70 transition-colors hover:text-background"
+                  className="group inline-flex items-center gap-1.5 text-sm text-background/70 transition-colors hover:text-background"
                 >
+                  <ArrowRight className="h-3 w-3 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100" />
                   Become a Volunteer
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/donate"
-                  className="text-sm text-background/70 transition-colors hover:text-background"
-                >
-                  Donate to a Cause
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/events"
-                  className="text-sm text-background/70 transition-colors hover:text-background"
-                >
-                  Upcoming Events
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/contact"
-                  className="text-sm text-background/70 transition-colors hover:text-background"
-                >
-                  Partner With Us
                 </Link>
               </li>
             </ul>
