@@ -58,11 +58,11 @@ export default function ImpactStoriesPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm text-muted-foreground">{story.description}</p>
-              
+
               <div className="bg-emerald-50 dark:bg-emerald-950/40 p-4 rounded-lg border border-emerald-100 dark:border-emerald-900 relative">
                 <Quote className="w-5 h-5 text-emerald-600 dark:text-emerald-400 mb-1 opacity-60" />
                 <p className="text-sm italic text-emerald-900 dark:text-emerald-200">
-                  "{story.quote}"
+                  &ldquo;{story.quote}&rdquo;
                 </p>
                 <p className="text-xs font-semibold text-emerald-700 dark:text-emerald-400 mt-2 text-right">
                   — {story.beneficiary}
